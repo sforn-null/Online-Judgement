@@ -1,0 +1,11 @@
+./temp_files/tmp_1628327664.1.cpp: In member function ‘bool Solution::isPalindrome(int)’:
+./temp_files/tmp_1628327664.1.cpp:9:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+./temp_files/tmp_1628327664.1.cpp: At global scope:
+./temp_files/tmp_1628327664.1.cpp:27:6: error: redefinition of ‘void Test1()’
+ void Test1(){
+      ^~~~~
+./temp_files/tmp_1628327664.1.cpp:16:6: note: ‘void Test1()’ previously defined here
+ void Test1(){
+      ^~~~~

@@ -1,0 +1,6 @@
+./temp_files/tmp_1628327677.2.cpp:27:6: error: redefinition of ‘void Test1()’
+ void Test1(){
+      ^~~~~
+./temp_files/tmp_1628327677.2.cpp:16:6: note: ‘void Test1()’ previously defined here
+ void Test1(){
+      ^~~~~

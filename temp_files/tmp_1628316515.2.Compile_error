@@ -1,0 +1,27 @@
+./temp_files/tmp_1628316515.2.cpp: In member function ‘bool Solution::isPalindrome(int)’:
+./temp_files/tmp_1628316515.2.cpp:8:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+./temp_files/tmp_1628316515.2.cpp: In function ‘void Test1()’:
+./temp_files/tmp_1628316515.2.cpp:18:6: error: ‘ret’ was not declared in this scope
+   if(ret){
+      ^~~
+./temp_files/tmp_1628316515.2.cpp:18:6: note: suggested alternative: ‘re’
+   if(ret){
+      ^~~
+      re
+./temp_files/tmp_1628316515.2.cpp: At global scope:
+./temp_files/tmp_1628316515.2.cpp:26:6: error: redefinition of ‘void Test1()’
+ void Test1(){
+      ^~~~~
+./temp_files/tmp_1628316515.2.cpp:15:6: note: ‘void Test1()’ previously defined here
+ void Test1(){
+      ^~~~~
+./temp_files/tmp_1628316515.2.cpp: In function ‘void Test1()’:
+./temp_files/tmp_1628316515.2.cpp:29:7: error: ‘ret’ was not declared in this scope
+   if(!ret){
+       ^~~
+./temp_files/tmp_1628316515.2.cpp:29:7: note: suggested alternative: ‘re’
+   if(!ret){
+       ^~~
+       re
